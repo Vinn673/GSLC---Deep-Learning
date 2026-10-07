@@ -1,0 +1,8 @@
+code,name,trainable_params,total_params,lr,epochs_run,best_epoch,train_time_sec,val_acc,val_macro_f1,test_acc,test_macro_f1
+B1,Baseline from Scratch,11181642,11181642,all=1e-3,13,9,189.2,0.4343,0.4279,0.4094,0.3992
+B2,Feature Extraction,5130,11181642,fc=1e-3,20,16,262.6,0.9697,0.9697,0.9664,0.9664
+B3,Progressive Fine-Tuning,8398858,11181642,"layer4=1e-4, fc=1e-3",10,6,135.4,0.9798,0.9795,0.9732,0.9733
+B4a,Fine-Tuning TANPA Augmentasi,8398858,11181642,"layer4=1e-4, fc=1e-3",8,4,73.1,0.9731,0.9728,0.9698,0.9698
+B4b,Fine-Tuning DENGAN Augmentasi,8398858,11181642,"layer4=1e-4, fc=1e-3",13,9,168.6,0.9764,0.9761,0.9698,0.97
+B5-EffB0,EfficientNet-B0 Fine-Tuning,424970,4020358,"features[-1]=1e-4, classifier=1e-3",26,22,345.5,0.9663,0.9666,0.9664,0.9664
+B5-MobV3,MobileNetV3-Small Fine-Tuning,657546,1528106,"features[-1]=1e-4, classifier=1e-3",9,5,116.8,0.9394,0.9388,0.9396,0.9391

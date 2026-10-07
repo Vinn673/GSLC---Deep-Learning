@@ -1,0 +1,22 @@
+# Dataset (diunduh otomatis oleh torchvision saat notebook dijalankan)
+data/
+
+# Artefak Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# File sistem
+.DS_Store
+Thumbs.db
+
+# File ZIP hasil arsip
+*.zip
+
+# PDF soal tugas (bukan bagian pengumpulan repo)
+Tugas Take Home - Sesi 05 Advanced CNNs and Transfer Learning.pdf
+
+# Laporan docx (disusulin belakangan setelah link repo dimasukkan)
+# Hapus dua baris di bawah ini saat kamu siap push laporannya.
+Laporan_BagianC.docx
+Tugas05_BagianA.docx
