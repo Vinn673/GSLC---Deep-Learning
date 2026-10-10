@@ -35,8 +35,8 @@ Temuan utama: transfer learning jauh mengungguli pelatihan dari nol (selisih ~57
 ```
 .
 ├── Tugas05_TransferLearning.ipynb   # Notebook eksperimen Bagian B + visualisasi Bagian C
-├── Tugas05_BagianA.docx             # Jawaban Bagian A (analisis konseptual)
-├── Laporan_BagianC.docx             # Laporan analisis Bagian C (3-5 halaman)
+├── Tugas05_BagianA.pdf              # Jawaban Bagian A (analisis konseptual)
+├── Laporan_BagianC.pdf              # Laporan analisis Bagian C (3-5 halaman)
 ├── requirements.txt                 # Dependensi
 ├── README.md
 ├── logs/                            # Log metrik mentah (artefak verifikasi)
